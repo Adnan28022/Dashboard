@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./styles.css -o ./output.css",
+    "watch": "npx tailwindcss -i ./style.css -o ./output.css --watch"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.324",
+    "@iconify/utils": "^2.3.0",
+    "@iconscout/unicons": "^4.2.0"
+  }
+}

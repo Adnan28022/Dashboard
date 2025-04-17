@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    /* thin scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+    /* dark gray thumb */
+    border-radius: 8px;
+}
+
+#orderPopup.show #popupContent {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.sidebar-collapsed {
+    width: 4rem !important;
+    animation-name: slide-in;
+    animation-duration: 2s;
+}
+
+.sidebar-collapsed .sidebar-text {
+    display: none;
+}
+
+.sidebar-collapsed .fa-bars {
+    transform: rotate(180deg);
+    transition: transform 0.3s;
+}
+
+.colors {
+    background-color: white !important;
+    color: black !important;
+}
+
+.active {
+    background-color: #111827 !important;
+}
+
+.sidebtn.active {
+    background-color: #f9fafb;
+    /* same as bg-gray-50 */
+    color: black !important;
+}
+
+.navbar_transition{
+    transition: all ease .1s !important;
+}
